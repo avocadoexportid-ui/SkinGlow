@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowMart</title>
+
+  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h1>GlowMart</h1>
+
+  <div class="nav-actions">
+    <input type="text" id="searchInput" placeholder="Search skincare...">
+
+    <a href="cart.html" class="cart-btn">
+      Cart (<span id="cartCount">0</span>)
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>Healthy Skin Starts Here</h2>
+  <p>Premium skincare with affordable prices.</p>
+</section>
+
+<section class="filters">
+  <button data-category="all">All</button>
+  <button data-category="Face Wash">Face Wash</button>
+  <button data-category="Serum">Serum</button>
+  <button data-category="Moisturizer">Moisturizer</button>
+  <button data-category="Sunscreen">Sunscreen</button>
+</section>
+
+<section class="product-grid" id="productGrid"></section>
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>
